@@ -46,7 +46,7 @@ namespace ASPCoreMVCWithLogin
                 options.UseSqlServer(
                     Configuration.GetConnectionString("ProgramConnection")));
 
-            // Run Once
+            // Run Once At Project Start
             //services.AddIdentity<ApplicationUser, IdentityRole>()
             //        .AddEntityFrameworkStores<ApplicationDbContext>()
             //        .AddDefaultTokenProviders();
